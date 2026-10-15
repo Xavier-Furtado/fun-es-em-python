@@ -1,0 +1,28 @@
+def livro_favorito(titulo):
+    print(f"um dos meus livro favoritos é:{titulo}!")
+
+livro_favorito("um livro")
+
+
+def t_shirt(mensagem, tamanho="L"):
+    print(f"o tamanho é: {tamanho}\n a mensagem é: {mensagem}")
+
+t_shirt("ola tamanho")
+t_shirt(mensagem="python", tamanho="S")
+
+def descreve_cidade(cidade,pais="portugal"):
+    print(f"{cidade} é nao {pais}")
+
+descreve_cidade("andre")
+
+def criar_album(artista,titulo,faixas=None):
+    pessoa = {'artista' : artista , 'titulo' : titulo}
+    print(f"Artista{artista},titulo:{titulo},faixas:{faixas}")
+    if faixas:
+        pessoa[faixas] = faixas
+        return pessoa
+
+flagCrtl = True
+
+
+while
